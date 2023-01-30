@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/qr_scan"
+        android:icon="@drawable/ic_qr_code"
+        android:title="QR Code"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/report"
+        android:icon="@drawable/ic_flag"
+        android:title="Report"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/edit"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/copy"
+                android:icon="@drawable/ic_copy"
+                android:title="Copy"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/cut"
+                android:icon="@drawable/ic_cut"
+                android:title="Cut"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+
+</menu>
