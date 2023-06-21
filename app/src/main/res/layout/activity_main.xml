@@ -37,6 +37,13 @@
         android:text="Collapsing Toll Bar"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/collapsing_tool_bar_with_fragments_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Collapsing Toll Bar with Fragments"/>
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/theme_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

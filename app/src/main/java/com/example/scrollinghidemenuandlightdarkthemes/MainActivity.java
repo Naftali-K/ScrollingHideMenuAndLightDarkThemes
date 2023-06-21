@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getBaseContext(), ThemesActivity.class));
             }
         });
+
+        findViewById(R.id.collapsing_tool_bar_with_fragments_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getBaseContext(), CollapsingTollBarWithFragmentsActivity.class));
+            }
+        });
     }
 
     private void setReferences(){

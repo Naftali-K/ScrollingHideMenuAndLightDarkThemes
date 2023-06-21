@@ -99,4 +99,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <style name="category_menu_under_line_active">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
 </resources>
