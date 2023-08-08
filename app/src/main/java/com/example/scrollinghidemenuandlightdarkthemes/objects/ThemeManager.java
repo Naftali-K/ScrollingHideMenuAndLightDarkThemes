@@ -60,6 +60,10 @@ abstract public class ThemeManager {
             themeResourceID = R.style.Black;
         }
 
+        if (themesStringEnum == ThemesStringEnum.BLACK_WHITE) {
+            themeResourceID = R.style.Black_white;
+        }
+
         context.setTheme(themeResourceID);
     }
 }

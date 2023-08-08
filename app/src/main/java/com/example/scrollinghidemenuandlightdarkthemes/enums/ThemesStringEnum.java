@@ -9,7 +9,8 @@ public enum ThemesStringEnum {
     ORANGE("Orange"),
     PINK("Pink"),
     BLACK("Black"),
-    WHITE("White");
+    WHITE("White"),
+    BLACK_WHITE("Black_White");
 
     private String theme;
 
@@ -36,6 +37,10 @@ public enum ThemesStringEnum {
 
         if (theme.equals("Black")){
             return ThemesStringEnum.BLACK;
+        }
+
+        if (theme.equals("Black_White")){
+            return ThemesStringEnum.BLACK_WHITE;
         }
 
         return ThemesStringEnum.WHITE;

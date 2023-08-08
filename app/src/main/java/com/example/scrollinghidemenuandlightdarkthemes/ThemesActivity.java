@@ -64,6 +64,9 @@ public class ThemesActivity extends AppCompatActivity {
                     case R.id.black_radio_btn:
                         setSharedPreferences(ThemesStringEnum.BLACK);
                         break;
+                    case R.id.black_white_radio_btn:
+                        setSharedPreferences(ThemesStringEnum.BLACK_WHITE);
+                        break;
                     case R.id.white_radio_btn:
                     default:
                         setSharedPreferences(ThemesStringEnum.WHITE);
@@ -94,6 +97,11 @@ public class ThemesActivity extends AppCompatActivity {
 
         if (theme == ThemesStringEnum.BLACK){
             themesRadioGroup.check(R.id.black_radio_btn);
+            return;
+        }
+
+        if (theme == ThemesStringEnum.BLACK_WHITE) {
+            themesRadioGroup.check(R.id.black_white_radio_btn);
             return;
         }
 

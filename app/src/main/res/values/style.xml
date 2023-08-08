@@ -87,15 +87,29 @@
 
     <style name="White">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/purple_500</item> <!-- ActionBar -->
         <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- Background -->
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/teal_200</item> <!-- Form -->
         <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item> <!-- Text -->
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Toolbar -->
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Black_white" >
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item> <!-- ActionBar -->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item> <!-- Background -->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#FF5722</item> <!-- Form -->
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/white</item> <!-- Text -->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Toolbar -->
         <!-- Customize your theme here. -->
     </style>
 
